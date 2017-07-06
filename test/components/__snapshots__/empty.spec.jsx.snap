@@ -1,0 +1,41 @@
+exports[`Empty component should be displayed with albums text if emptyType is albums 1`] = `
+<div>
+  <div
+    className="pho-empty">
+    <h2>
+      You don\'t have any album yet.
+    </h2>
+    <p>
+      Start by clicking \"New album\" to create your first album.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Empty component should be displayed with photos text if emptyType is album_photos 1`] = `
+<div>
+  <div
+    className="pho-empty">
+    <h2>
+      There is not photo in this album yet.
+    </h2>
+    <p>
+      Start by clicking \"Add photos to album\" to add some.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Empty component should be displayed with photos text if emptyType is timeline_photos 1`] = `
+<div>
+  <div
+    className="pho-empty">
+    <h2>
+      You don\'t have any photos yet.
+    </h2>
+    <p>
+      Click the \"Upload\" button to add photos.
+    </p>
+  </div>
+</div>
+`;

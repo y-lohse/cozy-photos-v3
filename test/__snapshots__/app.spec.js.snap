@@ -1,0 +1,14 @@
+exports[`App component only should be mounted correctly 1`] = `
+<div
+  className="pho-wrapper coz-sticky">
+  <Sidebar />
+  <main
+    className="pho-content" />
+  <Alerter
+    t={[Function]} />
+</div>
+`;
+
+exports[`I18n with App component should be mounted correctly in en lang 1`] = `null`;
+
+exports[`I18n with App component should be mounted correctly in fr lang 1`] = `null`;
